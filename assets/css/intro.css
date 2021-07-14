@@ -1,0 +1,89 @@
+.ls-1 {
+    letter-spacing: 1px;
+}
+.slider__image {
+    height: 450px;
+    object-fit: cover;
+}
+
+.slider__nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.slider__nav--items {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.slider__nav--link {
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.slider__nav--link:hover {
+    background-color: rgb(1, 128, 1, 0.9);
+}
+
+.instruction {
+    font-size: 14px;
+    padding: 15px 0;
+    font-weight: 600;
+}
+
+.instruc__first {
+    color: gray;
+}
+
+.instruc__icon {
+    padding: 3px;
+    color: gray;
+}
+
+.instruc__second {
+    color: rgb(0, 60, 0);
+}
+
+.content__heading {
+    font-size: 35px;
+    padding: 30px 0 15px 0;
+}
+
+.intro__title {
+    font-size: 25px;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.text--upper {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.third__lists {
+    padding-left: 15px;
+}
+
+.intro__logo {
+    padding: 150px 0 80px 0;
+}
+
+.customer__lists {
+    display: flex;
+    padding: 40px 0;
+}
+
+.customer--items {
+    padding: 0 15px;
+    list-style: none;
+}
+
+.icons--customer {
+    font-size: 20px;
+    padding: 10px;
+}
+
+

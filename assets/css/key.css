@@ -1,0 +1,75 @@
+.lists {
+    padding: 20px;
+    background-color:rgb(1, 128, 1, 0.9);
+    color: white;
+    margin-top: 124px;
+}
+
+.list__heading {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.list__key {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.key--item {
+    padding: 3px 0;
+}
+
+.key--link {
+    color: white;
+    font-weight: 600;
+}
+
+.key--active {
+    color: rgb(255, 209, 123);
+}
+
+.key--link:hover {
+    color: rgb(255, 209, 123);
+}
+
+.key__heading {
+    font-size: 40px;
+    padding: 30px 15px;
+}
+
+.key {
+    display: block;
+    width: 100%;
+}
+
+.key__name {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.key__price {
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+    font-weight: 600;
+    text-align: center;
+}
+
+.key__info {
+    padding: 5px 0;
+}
+
+.key:hover {
+    border: 1px solid rgb(0, 110, 0);    
+}
+
+.key:hover .key__name,
+.key:hover .key__price {
+    color: rgb(0, 110, 0);
+}
+
+.key:hover .key__info {
+    background-color: rgb(230, 230, 230);
+}
+
